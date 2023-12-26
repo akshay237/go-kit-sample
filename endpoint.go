@@ -8,12 +8,12 @@ import (
 )
 
 type addRequest struct {
-	Name string `json:"string"`
+	Name string `json:"name"`
 }
 
 type updateRequest struct {
 	Id   int    `json:"id"`
-	Name string `json:"string"`
+	Name string `json:"name"`
 }
 
 type getRequest struct {
